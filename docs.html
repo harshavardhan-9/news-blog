@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Dashboard Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        @media print {
+            body {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>News Dashboard Project Documentation</h1>
+
+    <h2>Project Overview</h2>
+    <p>A responsive dashboard application for managing news articles and author payouts. Built with Next.js, TypeScript, and Tailwind CSS.</p>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li>User Authentication with Clerk</li>
+        <li>News API Integration</li>
+        <li>Interactive Analytics</li>
+        <li>Payout Management</li>
+        <li>Responsive Design</li>
+        <li>Dark Mode Support</li>
+        <li>Export to PDF/CSV</li>
+        <li>Advanced Filtering</li>
+    </ul>
+
+    <h2>Tech Stack</h2>
+    <ul>
+        <li>Framework: Next.js 14 with App Router</li>
+        <li>Language: TypeScript</li>
+        <li>Styling: Tailwind CSS</li>
+        <li>Authentication: Clerk</li>
+        <li>State Management: Zustand</li>
+        <li>UI Components: Radix UI</li>
+        <li>Charts: Chart.js</li>
+        <li>Forms: React Hook Form</li>
+        <li>Data Fetching: Axios</li>
+    </ul>
+
+    <h2>Project Structure</h2>
+    <pre>
+src/
+├── app/
+│   ├── (auth)/
+│   │   ├── sign-in/
+│   │   └── sign-up/
+│   └── (main)/
+│       ├── dashboard/
+│       ├── news/
+│       └── settings/
+├── components/
+│   ├── ui/
+│   ├── navbar.tsx
+│   └── sidebar.tsx
+├── hooks/
+│   └── use-toast.ts
+├── lib/
+│   └── utils.ts
+└── types/
+    └── env.d.ts
+    </pre>
+
+    <h2>Features in Detail</h2>
+    
+    <h3>Authentication</h3>
+    <ul>
+        <li>Secure authentication using Clerk</li>
+        <li>Protected routes and middleware</li>
+        <li>Role-based access control</li>
+    </ul>
+
+    <h3>Dashboard</h3>
+    <ul>
+        <li>Overview of total articles</li>
+        <li>Visual analytics with Chart.js</li>
+        <li>Recent articles feed</li>
+    </ul>
+
+    <h3>News Management</h3>
+    <ul>
+        <li>Integration with News API</li>
+        <li>Advanced filtering options</li>
+        <li>Search functionality</li>
+        <li>Responsive article cards</li>
+    </ul>
+
+    <h3>Payout System</h3>
+    <ul>
+        <li>Configurable payout rates</li>
+        <li>Automatic calculations</li>
+        <li>Export functionality (PDF/CSV)</li>
+        <li>Google Sheets integration (coming soon)</li>
+    </ul>
+</body>
+</html> 
