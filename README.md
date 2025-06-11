@@ -31,7 +31,7 @@ A responsive dashboard application for managing news articles and author payouts
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/newsblog.git
+   git clone https://github.com/harshavardhan-9/news-blog
    cd newsblog
    ```
 
