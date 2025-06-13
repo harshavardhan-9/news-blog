@@ -1,113 +1,73 @@
-# News Dashboard
+# Welcome to your Lovable project
 
-A responsive dashboard application for managing news articles and author payouts. Built with Next.js, TypeScript, and Tailwind CSS.
+## Project info
 
-## Features
+**URL**: https://lovable.dev/projects/9694254e-867d-400f-9029-76f8195ea3c4
 
-- 🔐 User Authentication with Clerk
-- 📰 News API Integration
-- 📊 Interactive Analytics
-- 💰 Payout Management
-- 📱 Responsive Design
-- 🌓 Dark Mode Support
-- 📤 Export to PDF/CSV
-- 🔍 Advanced Filtering
+## How can I edit this code?
 
-## Tech Stack
+There are several ways of editing your application.
 
-- **Framework**: Next.js 14 with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Authentication**: Clerk
-- **State Management**: Zustand
-- **UI Components**: Radix UI
-- **Charts**: Chart.js
-- **Forms**: React Hook Form
-- **Data Fetching**: Axios
-- **Date Handling**: date-fns
-- **Export**: jsPDF, react-csv
+**Use Lovable**
 
-## Getting Started
+Simply visit the [Lovable Project](https://lovable.dev/projects/9694254e-867d-400f-9029-76f8195ea3c4) and start prompting.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/harshavardhan-9/news-blog
-   cd newsblog
-   ```
+Changes made via Lovable will be committed automatically to this repo.
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+**Use your preferred IDE**
 
-3. Create a `.env.local` file in the root directory and add your environment variables:
-   ```
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-   CLERK_SECRET_KEY=your_clerk_secret_key
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-   NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
-   ```
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Follow these steps:
 
-## Project Structure
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-```
-src/
-├── app/
-│   ├── (auth)/
-│   │   ├── sign-in/
-│   │   └── sign-up/
-│   └── (main)/
-│       ├── dashboard/
-│       ├── news/
-│       └── settings/
-├── components/
-│   ├── ui/
-│   ├── navbar.tsx
-│   └── sidebar.tsx
-├── hooks/
-│   └── use-toast.ts
-├── lib/
-│   └── utils.ts
-└── types/
-    └── env.d.ts
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## Features in Detail
+**Edit a file directly in GitHub**
 
-### Authentication
-- Secure authentication using Clerk
-- Protected routes and middleware
-- Role-based access control
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### Dashboard
-- Overview of total articles
-- Visual analytics with Chart.js
-- Recent articles feed
+**Use GitHub Codespaces**
 
-### News Management
-- Integration with News API
-- Advanced filtering options
-- Search functionality
-- Responsive article cards
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-### Payout System
-- Configurable payout rates
-- Automatic calculations
-- Export functionality (PDF/CSV)
-- Google Sheets integration (coming soon)
+## What technologies are used for this project?
 
-### Settings
-- Theme customization
-- Payout rate management
-- Export options
+This project is built with:
 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/9694254e-867d-400f-9029-76f8195ea3c4) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
